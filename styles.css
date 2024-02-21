@@ -830,9 +830,11 @@ footer {
     width: 100%;
   }
   .project__wrapper--bg {
-    opacity: 0.7;
+    opacity: 0.9;
   }
-  .project__wrapper:hover .project__description {
+  .project__description {
+    transform: translateY(-50%);
+    top: 50%;
     opacity: 1;
   }
 }
@@ -840,7 +842,7 @@ footer {
 /* Small phones */
 @media (max-width: 480px) {
   .title {
-    font-size: 52px;
+    font-size: 44px;
   }
   .header__para {
     font-size: 18px;
@@ -865,8 +867,5 @@ footer {
   }
   .project__wrapper--bg {
     opacity: 0.7;
-  }
-  .project__wrapper:hover .project__description {
-    opacity: 1;
   }
 }
